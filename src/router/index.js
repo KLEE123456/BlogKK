@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import BlHome from '../components/BlHome.vue'
 import BlHeader from '../components/BlHeader.vue'
 import BlFooter from '../components/BlFooter.vue'
+import BlHomeCnt from '../components/BlHomeContent/BlHomeCnt.vue'
 Vue.use(VueRouter)
 
 const routes = [

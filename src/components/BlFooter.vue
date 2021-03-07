@@ -78,7 +78,6 @@ export default {
     .newBlog,.callMe,.myself{
         text-align: center;
         padding: 30px 0px;
-        box-sizing: border-box;
     }
     p{
         font-family: "宋体";

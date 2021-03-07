@@ -32,6 +32,7 @@ export default {
 <style>
     .header{
         position: relative;
+        /* margin-bottom: 50px; */
     }
     .mLogo{
         color: #41B883;
@@ -49,6 +50,5 @@ export default {
         background-color: #39393b;
         border: 0px;
         color: white;
-
     }
 </style>
