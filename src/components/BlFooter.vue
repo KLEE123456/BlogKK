@@ -43,6 +43,7 @@ export default {
         height: 350px;
         width: 100%;
         background-color: #39393b;
+        margin-top: 100px;
     }
     .fTop{
         width: 100%;
@@ -82,7 +83,7 @@ export default {
     p{
         font-family: "宋体";
         font-size: 15px;
-        color: rgb(221, 217, 217);
+        color: rgba(221, 217, 217,0.8);
     }
     h3{
         font-family: "宋体";

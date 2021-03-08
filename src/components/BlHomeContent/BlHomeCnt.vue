@@ -12,6 +12,8 @@
       <BlHomeCItem></BlHomeCItem>
       <BlHomeCItem></BlHomeCItem>
       <BlHomeCItem></BlHomeCItem>
+      <BlHomeCItem></BlHomeCItem>
+      <BlHomeCItem></BlHomeCItem>
       <div class="MyHBottom">
           <div class="beginPageBtn">
                <el-button type="success" plain>首页</el-button>

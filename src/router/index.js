@@ -5,6 +5,10 @@ import BlHome from '../components/BlHome.vue'
 import BlHeader from '../components/BlHeader.vue'
 import BlFooter from '../components/BlFooter.vue'
 import BlHomeCnt from '../components/BlHomeContent/BlHomeCnt.vue'
+import BlHomeType from '../components/BlHomeContent/BlHomeType.vue'
+import BlHomeTag from '../components/BlHomeContent/BlHomeTag.vue'
+import BlHomeRed from '../components/BlHomeContent/BlHomeRed.vue'
+import BlHomeWeChat from '../components/BlHomeContent/BlHomeWeChat.vue'
 Vue.use(VueRouter)
 
 const routes = [
