@@ -4,13 +4,15 @@
             <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect"  background-color="#39393b"
                 text-color="#fff"
                 active-text-color="#ffd04b" >
-                <el-menu-item index="bLogo">
+                <el-menu-item ></el-menu-item>
+                <el-menu-item>
                     <span class="mLogo">Likai</span>
                 </el-menu-item>
                 <el-menu-item index="bHome"><i class="el-icon-s-home"></i>首页</el-menu-item> 
                 <el-menu-item index="bType"><i class="el-icon-s-opportunity"></i>分类</el-menu-item>    
-                <el-menu-item index="bTag"><i class="el-icon-collection-tag"></i>标签</el-menu-item> 
-                <el-menu-item index="bTFile"><i class="el-icon-user-solid"></i>关于我</el-menu-item>  
+                <el-menu-item index="bTag"><i class="el-icon-collection-tag"></i>标签</el-menu-item>
+                <el-menu-item index="bFile"><i class="el-icon-document-copy"></i>归档</el-menu-item> 
+                <el-menu-item index="bInfo"><i class="el-icon-user-solid"></i>关于我</el-menu-item>  
             </el-menu>  
         </div>  
         <div class="mySearch">

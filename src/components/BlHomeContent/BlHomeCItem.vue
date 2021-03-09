@@ -61,7 +61,7 @@ export default {
         display: flex;
         align-items: center;
     }
-    .author,.upDate,.el-icon-view{
+    .upDate,.el-icon-view{
         padding: 0px 10px;
         font-size: 10px;
         color: grey;
@@ -79,5 +79,10 @@ export default {
         img{
             border-radius: 4px;
         }
+    }
+    .author{
+        padding: 0px 10px;
+        font-size: 10px;
+        color: #41B883;
     }
 </style>

@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
     .footer{
         height: 350px;
         width: 100%;
@@ -80,7 +80,7 @@ export default {
         text-align: center;
         padding: 30px 0px;
     }
-    p{
+    .footer p{
         font-family: "宋体";
         font-size: 15px;
         color: rgba(221, 217, 217,0.8);

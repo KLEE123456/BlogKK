@@ -9,12 +9,13 @@ import BlHomeType from '../components/BlHomeContent/BlHomeType.vue'
 import BlHomeTag from '../components/BlHomeContent/BlHomeTag.vue'
 import BlHomeRed from '../components/BlHomeContent/BlHomeRed.vue'
 import BlHomeWeChat from '../components/BlHomeContent/BlHomeWeChat.vue'
+import BlDetail from '../components/BlDetails/BlDetail.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: BlHome
+    component: BlDetail
   },
   {
     path: '/about',
