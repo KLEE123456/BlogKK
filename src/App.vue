@@ -1,7 +1,9 @@
 <template>
     <div class="container">
         <BlHeader></BlHeader>
-        <router-view></router-view>
+            <keep-alive>
+                <router-view></router-view>
+            </keep-alive>
         <BlFooter></BlFooter>
     </div>
 </template>
@@ -25,5 +27,8 @@ export default {
     }
     .container{
         background: url("./assets/homeBg1.png");
+    }
+    a{
+        text-decoration: none;
     }
 </style>

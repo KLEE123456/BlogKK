@@ -1,29 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import BlHome from '../components/BlHome.vue'
-import BlHeader from '../components/BlHeader.vue'
-import BlFooter from '../components/BlFooter.vue'
-import BlHomeCnt from '../components/BlHomeContent/BlHomeCnt.vue'
-import BlHomeType from '../components/BlHomeContent/BlHomeType.vue'
-import BlHomeTag from '../components/BlHomeContent/BlHomeTag.vue'
-import BlHomeRed from '../components/BlHomeContent/BlHomeRed.vue'
-import BlHomeWeChat from '../components/BlHomeContent/BlHomeWeChat.vue'
-import BlDetail from '../components/BlDetails/BlDetail.vue'
+import BlType from '../components/BlTypes/BlType.vue'
+import BlTag from '../components/BlTags/BlTag.vue'
+import BlAhv from '../components/BlArchives/BlAhv.vue'
+import AboutMe from '../components/AboutMe.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: BlDetail
+    component: BlHome
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path:'/blType',
+    component:BlType
+  },
+  {
+    path:'/blTag',
+    component:BlTag
+  },
+  {
+    path:'/blArc',
+    component:BlAhv
+  },
+  {
+    path:'/aboutMe',
+    component:AboutMe
   }
 ]
 

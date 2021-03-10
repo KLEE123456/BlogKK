@@ -8,11 +8,11 @@
                 <el-menu-item>
                     <span class="mLogo">Likai</span>
                 </el-menu-item>
-                <el-menu-item index="bHome"><i class="el-icon-s-home"></i>首页</el-menu-item> 
-                <el-menu-item index="bType"><i class="el-icon-s-opportunity"></i>分类</el-menu-item>    
-                <el-menu-item index="bTag"><i class="el-icon-collection-tag"></i>标签</el-menu-item>
-                <el-menu-item index="bFile"><i class="el-icon-document-copy"></i>归档</el-menu-item> 
-                <el-menu-item index="bInfo"><i class="el-icon-user-solid"></i>关于我</el-menu-item>  
+                <el-menu-item index="bHome"><i class="el-icon-s-home"></i><router-link to="/">首页</router-link></el-menu-item> 
+                <el-menu-item index="bType"><i class="el-icon-s-opportunity"></i><router-link to="/blType">分类</router-link></el-menu-item>    
+                <el-menu-item index="bTag"><i class="el-icon-collection-tag"></i><router-link to="/blTag">标签</router-link></el-menu-item>
+                <el-menu-item index="bFile"><i class="el-icon-document-copy"></i><router-link to="/blArc">归档</router-link></el-menu-item> 
+                <el-menu-item index="bInfo"><i class="el-icon-user-solid"></i><router-link to="/aboutMe">关于我</router-link></el-menu-item>  
             </el-menu>  
         </div>  
         <div class="mySearch">

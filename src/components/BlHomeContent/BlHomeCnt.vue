@@ -16,16 +16,16 @@
       <BlHomeCItem></BlHomeCItem>
       <div class="MyHBottom">
           <div class="beginPageBtn">
-               <el-button type="success" plain>首页</el-button>
+               <el-button type="warning" plain>首页</el-button>
           </div>
           <div class="prePageBtn">
-              <el-button type="success" plain>上一页</el-button>
+              <el-button type="warning" plain>上一页</el-button>
           </div>
           <div class="nextPageBtn">
-              <el-button type="success" plain>下一页</el-button>
+              <el-button type="warning" plain>下一页</el-button>
           </div>
           <div class="endPageBtn">
-              <el-button type="success" plain>尾页</el-button>
+              <el-button type="warning" plain>尾页</el-button>
           </div>
       </div>
   </div>

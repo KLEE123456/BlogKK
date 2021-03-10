@@ -12,7 +12,7 @@
             <div class="BlInfo">
                    <div><el-avatar :size="40" :src="circleUrl"></el-avatar></div>
                    <div class="author">KLEE</div>
-                   <div class="upDate">2021-03-07</div>
+                   <div class="upDate"><i class="el-icon-date"></i>2021-03-07</div>
                    <div class="el-icon-view">123</div>
                    <div class="textType">
                        <el-tag type="success">认知升级</el-tag>

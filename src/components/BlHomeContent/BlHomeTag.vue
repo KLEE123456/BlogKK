@@ -5,31 +5,31 @@
                  <i class="el-icon-collection-tag"></i><span>标签</span>
             </div>
             <div class="more">
-                <el-link href="https://element.eleme.io" target="_blank" type="success" :underline="false">more
+                <el-link href="https://element.eleme.io" target="_blank" type="primary" :underline="false">more
                     <i class="el-icon-d-arrow-right"></i>
                 </el-link>
             </div>
       </div>
       <div class="HomeTagCnt">
             <div>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
-                <el-tag type="success" size="medium"><span>刻意练习</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>刻意练习</span>&nbsp;<span>22</span></el-tag>
             </div>
              <div>
-                <el-tag type="success" size="medium"><span>SpringBoot</span>&nbsp;<span>22</span></el-tag>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>SpringBoot</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
             </div>
              <div>
-                <el-tag type="success" size="medium"><span>UserStroy</span>&nbsp;<span>22</span></el-tag>
-                <el-tag type="success" size="medium"><span>CSS3</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>UserStroy</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>CSS3</span>&nbsp;<span>22</span></el-tag>
             </div>
              <div>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
             </div>
              <div>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
-                <el-tag type="success" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
+                <el-tag type="primary" size="medium"><span>方法论</span>&nbsp;<span>22</span></el-tag>
             </div>
       </div>
   </div>
